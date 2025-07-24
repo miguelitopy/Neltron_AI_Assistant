@@ -3,8 +3,8 @@ import base64
 import json
 from modules.voice_module import falar
 
-API_KEY = "AIzaSyBG88TfZ_IA3bim0oROt6ZDhf9bkLJNxjg"
-GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key={API_KEY}"
+API_KEY = ""
+GEMINI_ENDPOINT = f""
 
 def interpretar_imagem_com_openai(caminho_imagem):
     try:
